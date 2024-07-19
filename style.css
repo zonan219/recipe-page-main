@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family: 'hello';
+    src: url('assets/fonts/young-serif/Outfit-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'ok';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+#heading{
+    font-family:'hello';
+    font-size: 50px;
+    font-weight: 400;
+    margin: auto;
+}
+#image{
+    margin: 0 auto;
+    display: block;
+    width: 595px;
+    height: 300px;
+    border-radius: 25px;
+}
+#a1{
+    width: 550px;
+    border-radius: 25px;
+    
+}
+body{
+    background-color: papayawhip;
+    margin-bottom: 5px;
+}
+#Recipe {
+    background-color: white;
+    padding: 20px;
+    
+    border-radius: 25px;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+}
+.small{
+    font-size: 16px;
+    font-family:'ok';
+    font-weight: normal;
+    
+}
+.big{
+    font-family:'hello';
+    font-size: 22px;
+    color: hsl(14, 45%, 36%);
+}
+#hea{
+    font-family:'hello';
+    font-size: 22px;
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+#Preparation{
+    padding : 20px;
+    border-radius: 25px;
+    background-color: hsl(330, 100%, 98%);
+}
+#Ingredients{
+    margin-top: 5%;
+    padding-left: 0;
+
+    
+}
+#Instructions{
+    margin-top: 5%;
+    padding-left: 0;
+}
+.attribution{
+    margin-top: 25px;
+    font-family: 'hello';
+    font-size: 22px;
+    padding: 20px;
+    border-radius: 22px;
+    background-color: hsl(212, 46%, 84%);
+
+}
+#table1{
+    text-indent: 55px;
+    font-size: 16px;
+}
+.big>table1{
+    font-size: 16px;
+}
